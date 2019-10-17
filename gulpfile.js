@@ -115,11 +115,11 @@ gulp.task('fonts', function() {
 	  	.pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('localization', function() {
+/*gulp.task('localization', function() {
 	return gulp.src(path.src.localization)
 		.pipe(include())
 		.pipe(gulp.dest(path.dist.localization))
-});
+});*/
 
 gulp.task('deploy:style', function(){
 	return gulp.src(path.src.style)
